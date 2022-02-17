@@ -5,12 +5,13 @@
 ### I have written this project In Vs code For, Better coding experience
 ### This project is tested on POSTMAN
 ### Please follow the instructions to run this project
-Step1:open the storeProject Folder in Vs code 
-Step2:open the terminal in Vs code And Type "cd src",As required module are located in src folder
-Step3:Type "node index.js" in terminal 
-Step4:Open the postMan and Type "localhost:3000/calculateTax" and select  "Post" Method
-Step5:Select the "Body" In Postman and then select "raw" and select format "json"
-Step6:Type the instructed data in Body as Given below:
+
+- Step1:open the storeProject Folder in Vs code 
+- Step2:open the terminal in Vs code And Type "cd src",As required module are located in src folder
+- Step3:Type "node index.js" in terminal 
+- Step4:Open the postMan and Type "localhost:3000/calculateTax" and select  "Post" Method
+- Step5:Select the "Body" In Postman and then select "raw" and select format "json"
+- Step6:Type the instructed data in Body as Given below:
 ```yaml
 [
     {

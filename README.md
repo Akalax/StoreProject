@@ -11,6 +11,7 @@ Step3:Type "node index.js" in terminal
 Step4:Open the postMan and Type "localhost:3000/calculateTax" and select  "Post" Method
 Step5:Select the "Body" In Postman and then select "raw" and select format "json"
 Step6:Type the instructed data in Body as Given below:
+```yaml
 [
     {
         "item":"Headache pills",
@@ -48,9 +49,10 @@ Step6:Type the instructed data in Body as Given below:
        "quantity": 1,
        "price": 300
    }
-]
+]```
 Step7:Then Hit the send Button:
 Step8:The Desire Output is givenBelow:
+```yaml
 {
     "status": true,
     "dataArray": [
@@ -68,4 +70,4 @@ Step8:The Desire Output is givenBelow:
             "DateOfBilling": "Thu Feb 17 2022 18:29:42 GMT+0530 (India Standard Time)"
         }
     ]
-}
+}```

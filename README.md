@@ -50,7 +50,8 @@
        "quantity": 1,
        "price": 300
    }
-]```
+]
+```
 - Step7:Then Hit the send Button:
 - Step8:The Desire Output is givenBelow:
 ```yaml
